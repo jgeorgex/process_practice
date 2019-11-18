@@ -11,4 +11,8 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz(15)).toEqual("fizzbuzz")
   });
 
+  it("Should return fizz if input is 6", function() {
+    expect(fizzBuzz(6)).toEqual("fizz")
+  });
+
 });
