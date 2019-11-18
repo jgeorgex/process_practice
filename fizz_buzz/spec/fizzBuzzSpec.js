@@ -15,4 +15,8 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz(6)).toEqual("fizz")
   });
 
+  it("Should return 2 if input is 2", function() {
+    expect(fizzBuzz(2)).toEqual(2)
+  });
+
 });
