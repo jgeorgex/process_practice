@@ -19,4 +19,8 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz(2)).toEqual(2)
   });
 
+  it("Should return 1073 if input is 1073", function() {
+    expect(fizzBuzz(1073)).toEqual(1073)
+  });
+
 });
