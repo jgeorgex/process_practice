@@ -1,3 +1,7 @@
 def get_middle(word)
-    word
+    if word.length <= 2
+        word
+    else
+        'b'
+    end
 end

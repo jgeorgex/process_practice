@@ -12,4 +12,8 @@ describe "#get_middle" do
     it "returns bb when given bb" do
         expect(get_middle('bb')).to eq 'bb'
     end
+
+    it "returns b when given abc" do
+        expect(get_middle('abc')).to eq 'b'
+    end
 end
