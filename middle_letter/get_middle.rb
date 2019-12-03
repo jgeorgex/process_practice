@@ -1,3 +1,3 @@
 def get_middle(word)
-    'a'
+    word
 end
